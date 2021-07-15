@@ -21,7 +21,7 @@ return [
         'controllerSuffix' => 'Controller',
 
         // разделитель для имен методов
-        'methodDelimiter' => '_',
+        'methodDelimiter' => '.',
 
         // Обработчики запросов
         'middleware'  => [

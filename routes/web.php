@@ -13,6 +13,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::post('/data/{action}', function (\Illuminate\Http\Request $request) {
+Route::post('/data/json-rpc', function (\Illuminate\Http\Request $request) {
     return \Tochka\JsonRpc\Facades\JsonRpcServer::handle($request->getContent());
 });
